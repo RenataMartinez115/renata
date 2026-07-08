@@ -6,9 +6,10 @@
 <title>Museos del Mundo</title>
 
 <style>
+
 body{
 font-family:Arial,sans-serif;
-background:#ffd6e7;
+background:#ffd6e8;
 margin:0;
 color:#333;
 }
@@ -17,13 +18,13 @@ header{
 background:#e91e63;
 color:white;
 text-align:center;
-padding:30px;
+padding:35px;
 }
 
 nav{
 background:#ff8ab5;
-padding:15px;
 text-align:center;
+padding:15px;
 }
 
 nav a{
@@ -34,30 +35,50 @@ font-weight:bold;
 }
 
 section{
-background:white;
 width:90%;
-max-width:1000px;
-margin:20px auto;
-padding:20px;
+max-width:1100px;
+margin:25px auto;
+background:white;
+padding:25px;
 border-radius:15px;
 box-shadow:0 0 10px gray;
 }
 
 h2{
 color:#e91e63;
+text-align:center;
 }
 
 .galeria{
 display:flex;
-gap:20px;
 flex-wrap:wrap;
 justify-content:center;
+gap:20px;
 }
 
-.galeria img{
-width:280px;
+.tarjeta{
+width:300px;
+background:#ffe9f1;
 border-radius:15px;
+padding:15px;
+text-align:center;
 box-shadow:0 0 10px gray;
+}
+
+.tarjeta img{
+width:100%;
+border-radius:15px;
+}
+
+iframe{
+width:100%;
+height:450px;
+border:none;
+border-radius:15px;
+}
+
+audio{
+width:100%;
 }
 
 .autora{
@@ -70,17 +91,6 @@ border-radius:20px;
 box-shadow:0 0 15px gray;
 }
 
-iframe{
-width:100%;
-height:450px;
-border-radius:15px;
-border:none;
-}
-
-audio{
-width:100%;
-}
-
 footer{
 background:#e91e63;
 color:white;
@@ -88,6 +98,7 @@ text-align:center;
 padding:20px;
 margin-top:20px;
 }
+
 </style>
 
 </head>
@@ -114,29 +125,55 @@ margin-top:20px;
 
 <section id="inicio">
 
-<h2>¿Qué es un museo?</h2>
+<h2>¿Qué son los museos?</h2>
 
 <p>
-Los museos son lugares donde se conservan obras de arte, objetos históricos y científicos para proteger el patrimonio cultural y compartir conocimientos con las personas.
-</p>
-
-<p>
-Entre los museos más famosos del mundo se encuentran el Museo del Louvre, el Museo del Prado y el Museo Nacional de Antropología de México.
+Los museos son instituciones que conservan objetos históricos, científicos y artísticos para proteger el patrimonio cultural de la humanidad. Además ayudan a aprender sobre diferentes culturas y épocas.
 </p>
 
 </section>
 
 <section id="galeria">
 
-<h2>Galería de Museos</h2>
+<h2>Museos más importantes</h2>
 
 <div class="galeria">
 
-<img src="museo1.jpg" alt="Museo Nacional de Antropología">
+<div class="tarjeta">
 
-<img src="Museo2.jpg" alt="Museo del Prado">
+<img src="museo1.jpg">
 
-<img src="museo3.jpg" alt="Museo del Louvre">
+<h3>Museo Nacional de Antropología</h3>
+
+<p>
+Ubicado en la Ciudad de México. Es uno de los museos más importantes de América y resguarda piezas como la Piedra del Sol y esculturas olmecas.
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<img src="Museo2.jpg">
+
+<h3>Museo del Prado</h3>
+
+<p>
+Se encuentra en Madrid, España. Posee obras de artistas famosos como Velázquez, Goya, Rubens y El Greco.
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<img src="museo3.jpg">
+
+<h3>Museo del Louvre</h3>
+
+<p>
+Está ubicado en París, Francia. Es el museo más visitado del mundo y alberga la famosa pintura de la Mona Lisa.
+</p>
+
+</div>
 
 </div>
 
@@ -146,7 +183,9 @@ Entre los museos más famosos del mundo se encuentran el Museo del Louvre, el Mu
 
 <h2>Video sobre Museos</h2>
 
-<iframe src="https://www.youtube.com/embed/qEZvWb0aV6A"
+<iframe
+src="https://www.youtube.com/embed/aq8x0xkq9Qk"
+title="Museos"
 allowfullscreen>
 </iframe>
 
@@ -154,13 +193,13 @@ allowfullscreen>
 
 <section id="musica">
 
-<h2>Música de Fondo</h2>
+<h2>Música</h2>
 
-<audio controls autoplay loop>
+<p>Presiona ▶ Play para escuchar la música.</p>
+
+<audio controls loop>
 
 <source src="musica.mp3" type="audio/mpeg">
-
-Tu navegador no soporta audio.
 
 </audio>
 
@@ -172,12 +211,12 @@ Tu navegador no soporta audio.
 
 <div class="autora">
 
-<img src="renata.jpg" alt="Renata">
+<img src="renata.jpg">
 
 <h3>Renata Martínez Salinas</h3>
 
 <p>
-Estudiante interesada en conocer la historia, el arte y la cultura a través de los museos más importantes del mundo.
+Este proyecto fue realizado para conocer la importancia de los museos y el valor del patrimonio cultural.
 </p>
 
 </div>
