@@ -4,727 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conociendo la Historia, el Arte y la Cultura</title>
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
         }
 
-        body {
-            line-height: 1.7;
-            color: #333;
-            background-color: #fce4ec;
+        body{
+            line-height:1.7;
+            color:#333;
+            background:#fce4ec;
         }
 
-        header {
-            background: #ec407a;
-            color: white;
-            padding: 1.2rem;
-            text-align: center;
+        header{
+            background:#ec407a;
+            color:white;
+            text-align:center;
+            padding:1.2rem;
         }
 
-        nav {
-            background: #ad1457;
-            padding: 0.8rem;
-            text-align: center;
+        nav{
+            background:#ad1457;
+            padding:.8rem;
+            text-align:center;
         }
 
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: bold;
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 1rem;
+            font-weight:bold;
         }
 
-        nav a:hover {
-            color: #f8bbd0;
+        nav a:hover{
+            color:#f8bbd0;
         }
 
-        main {
-            max-width: 1100px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
+        main{
+            max-width:1100px;
+            margin:2rem auto;
+            padding:0 1.5rem;
         }
 
-        section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        section{
+            background:white;
+            margin-bottom:2rem;
+            padding:2rem;
+            border-radius:8px;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
         }
 
-        h2 {
-            color: #ad1457;
-            margin-bottom: 1.2rem;
-            border-bottom: 2px solid #ec407a;
-            padding-bottom: 0.5rem;
+        h2{
+            color:#ad1457;
+            margin-bottom:1rem;
+            border-bottom:2px solid #ec407a;
+            padding-bottom:.5rem;
         }
 
-        h3 {
-            color: #ec407a;
-            margin: 1.5rem 0 0.8rem;
+        h3{
+            color:#ec407a;
+            margin:1.5rem 0 .8rem;
         }
 
-        img {
-            max-width: 90%;
-            height: auto;
-            display: block;
-            margin: 1rem auto;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-            border: 2px solid #f8bbd0;
+        img{
+            max-width:90%;
+            display:block;
+            margin:1rem auto;
+            border-radius:6px;
+            border:2px solid #f8bbd0;
+            box-shadow:0 2px 6px rgba(0,0,0,.15);
         }
 
-        .foto-autora {
-            max-width: 260px;
-            border-radius: 12px;
-            border: 4px solid #ec407a;
+        .foto-autora{
+            max-width:260px;
+            border:4px solid #ec407a;
+            border-radius:12px;
         }
 
-        .reproductor {
-            text-align: center;
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background-color: #fce4ec;
-            border-radius: 8px;
+        .reproductor{
+            text-align:center;
+            margin:2rem 0;
+            padding:1.5rem;
+            background:#fce4ec;
+            border-radius:8px;
         }
 
-        audio {
-            width: 100%;
-            max-width: 450px;
-            margin-top: 0.8rem;
+        audio{
+            width:100%;
+            max-width:450px;
+            margin-top:.8rem;
         }
 
-        .video-contenedor {
-            text-align: center;
-            margin: 2rem 0;
+        .video-contenedor{
+            text-align:center;
+            margin:2rem 0;
         }
 
-        iframe {
-            width: 100%;
-            max-width: 750px;
-            height: 420px;
-            border: none;
-            border-radius: 6px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        iframe{
+            width:100%;
+            max-width:750px;
+            height:420px;
+            border:none;
+            border-radius:6px;
+            box-shadow:0 3px 10px rgba(0,0,0,.2);
         }
 
-        ul {
-            margin-left: 1.8rem;
-            margin-top: 0.8rem;
+        ul{
+            margin-left:2rem;
+            margin-top:.8rem;
         }
 
-        footer {
-            text-align: center;
-            padding: 1.2rem;
-            background: #ad1457;
-            color: white;
-            margin-top: 2rem;
+        footer{
+            background:#ad1457;
+            color:white;
+            text-align:center;
+            padding:1.2rem;
+            margin-top:2rem;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Conociendo la Historia, el Arte y la Cultura</h1>
-        <p>Proyecto elaborado por Renata Martínez Salinas</p>
-    </header>
-
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#que-es">¿Qué es un Museo?</a>
-        <a href="#historia">Historia</a>
-        <a href="#importantes">Museos Importantes</a>
-        <a href="#tipos">Tipos de Museos</a>
-        <a href="#datos">Datos Curiosos</a>
-        <a href="#importancia">Importancia</a>
-        <a href="#musica">Música</a>
-        <a href="#video">Video</a>
-        <a href="#autora">Sobre la Autora</a>
-    </nav>
-
-    <main>
-        <section id="inicio">
-            <h2>Bienvenida</h2>
-            <p>Los museos son espacios donde se conserva una parte importante de la historia y la cultura de la humanidad. En ellos se resguardan obras de arte, fósiles, documentos, esculturas, objetos antiguos y descubrimientos científicos que ayudan a comprender cómo vivían las personas en distintas épocas. Además de proteger estos bienes, los museos promueven el aprendizaje mediante exposiciones, visitas guiadas, talleres y actividades educativas.</p>
-            <br>
-            <p>Actualmente existen miles de museos en todo el mundo. Algunos son muy famosos por sus colecciones, mientras que otros se enfocan en preservar la historia y las tradiciones de una región o comunidad. Gracias a ellos es posible acercarse al conocimiento de una forma interesante y dinámica.</p>
-        </section>
-
-        <section id="que-es">
-            <h2>¿Qué es un Museo?</h2>
-            <p>Un museo es una institución permanente sin fines de lucro que adquiere, conserva, investiga y exhibe objetos de valor histórico, artístico, científico o cultural. Su objetivo principal es proteger el patrimonio para que pueda ser conocido y apreciado por las generaciones presentes y futuras.</p>
-            <br>
-            <p>Además de exhibir colecciones, los museos realizan investigaciones, restauran piezas antiguas y colaboran con escuelas y universidades para fomentar la educación. Muchos también cuentan con bibliotecas, auditorios y espacios interactivos donde los visitantes pueden participar en actividades relacionadas con las exposiciones.</p>
-        </section>
-
-        <section id="historia">
-            <h2>Historia de los Museos</h2>
-            <p>Los primeros museos surgieron hace cientos de años como colecciones privadas de reyes y personas adineradas. Con el paso del tiempo comenzaron a abrirse al público para compartir el conocimiento con toda la sociedad. Uno de los museos más antiguos y famosos es el Museo del Louvre, que anteriormente fue un palacio real y hoy alberga una de las colecciones de arte más importantes del mundo.</p>
-            <br>
-            <p>En la actualidad, los museos utilizan tecnología moderna, como pantallas táctiles, realidad virtual y recorridos digitales, para hacer que la experiencia de los visitantes sea más atractiva e interactiva.</p>
-        </section>
-
-        <section id="importantes">
-            <h2>Museos Más Importantes del Mundo</h2>
-
-            <h3>Museo del Louvre</h3>
-            <img src="louvre.jpg" alt="Museo del Louvre, París">
-            <p>Ubicado en París, Francia, es el museo más visitado del mundo. Cuenta con miles de obras, entre ellas la Mona Lisa de Leonardo da Vinci y la Venus de Milo. Su colección abarca desde la antigüedad hasta el siglo XIX.</p>
-
-            <h3>Museo Nacional de Antropología</h3>
-            <img src="prado.jpg" alt="Museo del Prado, Madrid"> alt="Museo Nacional de Antropología, Ciudad de México">
-            <p>Situado en la Ciudad de México, conserva piezas fundamentales de las culturas prehispánicas como la Piedra del Sol, esculturas olmecas y objetos mayas. Es considerado uno de los mejores museos de América.</p>
-
-            <h3>Museo Británico</h3>
-            <img src="britanico.JPG" alt="Museo Británico, Londres">
-            <p>Se encuentra en Londres y reúne millones de objetos procedentes de todos los continentes. Destacan las momias egipcias, la Piedra Rosetta y piezas de las antiguas civilizaciones griega y romana.</p>
-
-            <h3>Museo del Prado</h3>
-            <img src="britanico.JPG" alt="Museo Británico, Londres">
-            <p>Ubicado en Madrid, España, posee una extraordinaria colección de pintura europea con obras de artistas como Velázquez, Goya, Rubens y El Greco.</p>
-        </section>
-
-        <section id="tipos">
-            <h2>Tipos de Museos</h2>
-            <p>Existen museos de arte, historia, arqueología, antropología, ciencias naturales, tecnología, paleontología, historia militar y arte contemporáneo. Cada uno tiene la misión de conservar y difundir conocimientos específicos para enriquecer la educación de la sociedad.</p>
-        </section>
-
-        <section id="datos">
-            <h2>Datos Curiosos</h2>
-            <ul>
-                <li>El Museo del Louvre recibe millones de visitantes cada año.</li>
-                <li>Muchos museos ofrecen recorridos virtuales gratuitos por Internet.</li>
-                <li>Algunos museos poseen laboratorios donde restauran pinturas y esculturas antiguas.</li>
-                <li>Existen museos dedicados al chocolate, al cine, al espacio y hasta a los juguetes.</li>
-                <li>Los museos ayudan a preservar objetos únicos que forman parte de la historia de la humanidad.</li>
-            </ul>
-        </section>
-
-        <section id="importancia">
-            <h2>Importancia de los Museos</h2>
-            <p>Los museos desempeñan un papel fundamental en la conservación del patrimonio cultural e histórico. Gracias a ellos se protegen obras y objetos que permiten conocer la evolución de las civilizaciones. También fomentan el respeto por la diversidad cultural, impulsan el turismo y apoyan la investigación científica.</p>
-            <br>
-            <p>Visitar un museo permite desarrollar la curiosidad, ampliar los conocimientos y valorar el esfuerzo realizado por generaciones pasadas para construir el mundo actual. Son espacios abiertos para todas las personas y contribuyen al aprendizaje durante toda la vida.</p>
-        </section>
-
-        <section id="musica">
-            <h2>🎵 Música para acompañar tu recorrido</h2>
-            <div class="reproductor">
-                <p>Presiona reproducir para escuchar música ambiental:</p>
-                <audio controls>
-                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-                    Tu navegador no soporta la reproducción de audio.
-                
-            </div>
-        </section>
-
-        <section id="video">
-            <h2>📽️ Video: ¿Qué es un museo y por qué es importante?</h2>
-            <div class="video-contenedor">
-                <iframe src="https://www.youtube.com/embed/2Wjvj2bFq8k" allowfullscreen title="Video explicativo sobre museos"></iframe>
-            </div>
-        </section>
-
-        <section id="autora">
-            <h2>Sobre la Autora</h2>
-            <!-- ✅ Tu foto personal, lista para que la pongas en 1 clic -->
-            <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conociendo la Historia, el Arte y la Cultura</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            line-height: 1.7;
-            color: #333;
-            background-color: #fce4ec;
-        }
-
-        header {
-            background: #ec407a;
-            color: white;
-            padding: 1.2rem;
-            text-align: center;
-        }
-
-        nav {
-            background: #ad1457;
-            padding: 0.8rem;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #f8bbd0;
-        }
-
-        main {
-            max-width: 1100px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-        }
-
-        section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #ad1457;
-            margin-bottom: 1.2rem;
-            border-bottom: 2px solid #ec407a;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            color: #ec407a;
-            margin: 1.5rem 0 0.8rem;
-        }
-
-        img {
-            max-width: 90%;
-            height: auto;
-            display: block;
-            margin: 1rem auto;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-            border: 2px solid #f8bbd0;
-        }
-
-        .foto-autora {
-            max-width: 260px;
-            border-radius: 12px;
-            border: 4px solid #ec407a;
-        }
-
-        .reproductor {
-            text-align: center;
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background-color: #fce4ec;
-            border-radius: 8px;
-        }
-
-        audio {
-            width: 100%;
-            max-width: 450px;
-            margin-top: 0.8rem;
-        }
-
-        .video-contenedor {
-            text-align: center;
-            margin: 2rem 0;
-        }
-
-        iframe {
-            width: 100%;
-            max-width: 750px;
-            height: 420px;
-            border: none;
-            border-radius: 6px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-        }
-
-        ul {
-            margin-left: 1.8rem;
-            margin-top: 0.8rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1.2rem;
-            background: #ad1457;
-            color: white;
-            margin-top: 2rem;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Conociendo la Historia, el Arte y la Cultura</h1>
-        <p>Proyecto elaborado por Renata Martínez Salinas</p>
-    </header>
-
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#que-es">¿Qué es un Museo?</a>
-        <a href="#historia">Historia</a>
-        <a href="#importantes">Museos Importantes</a>
-        <a href="#tipos">Tipos de Museos</a>
-        <a href="#datos">Datos Curiosos</a>
-        <a href="#importancia">Importancia</a>
-        <a href="#musica">Música</a>
-        <a href="#video">Video</a>
-        <a href="#autora">Sobre la Autora</a>
-    </nav>
-
-    <main>
-        <section id="inicio">
-            <h2>Bienvenida</h2>
-            <p>Los museos son espacios donde se conserva una parte importante de la historia y la cultura de la humanidad. En ellos se resguardan obras de arte, fósiles, documentos, esculturas, objetos antiguos y descubrimientos científicos que ayudan a comprender cómo vivían las personas en distintas épocas. Además de proteger estos bienes, los museos promueven el aprendizaje mediante exposiciones, visitas guiadas, talleres y actividades educativas.</p>
-            <br>
-            <p>Actualmente existen miles de museos en todo el mundo. Algunos son muy famosos por sus colecciones, mientras que otros se enfocan en preservar la historia y las tradiciones de una región o comunidad. Gracias a ellos es posible acercarse al conocimiento de una forma interesante y dinámica.</p>
-        </section>
-
-        <section id="que-es">
-            <h2>¿Qué es un Museo?</h2>
-            <p>Un museo es una institución permanente sin fines de lucro que adquiere, conserva, investiga y exhibe objetos de valor histórico, artístico, científico o cultural. Su objetivo principal es proteger el patrimonio para que pueda ser conocido y apreciado por las generaciones presentes y futuras.</p>
-            <br>
-            <p>Además de exhibir colecciones, los museos realizan investigaciones, restauran piezas antiguas y colaboran con escuelas y universidades para fomentar la educación. Muchos también cuentan con bibliotecas, auditorios y espacios interactivos donde los visitantes pueden participar en actividades relacionadas con las exposiciones.</p>
-        </section>
-
-        <section id="historia">
-            <h2>Historia de los Museos</h2>
-            <p>Los primeros museos surgieron hace cientos de años como colecciones privadas de reyes y personas adineradas. Con el paso del tiempo comenzaron a abrirse al público para compartir el conocimiento con toda la sociedad. Uno de los museos más antiguos y famosos es el Museo del Louvre, que anteriormente fue un palacio real y hoy alberga una de las colecciones de arte más importantes del mundo.</p>
-            <br>
-            <p>En la actualidad, los museos utilizan tecnología moderna, como pantallas táctiles, realidad virtual y recorridos digitales, para hacer que la experiencia de los visitantes sea más atractiva e interactiva.</p>
-        </section>
-
-        <section id="importantes">
-            <h2>Museos Más Importantes del Mundo</h2>
-
-            <h3>Museo del Louvre</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg" alt="Museo del Louvre, París">
-            <p>Ubicado en París, Francia, es el museo más visitado del mundo. Cuenta con miles de obras, entre ellas la Mona Lisa de Leonardo da Vinci y la Venus de Milo. Su colección abarca desde la antigüedad hasta el siglo XIX.</p>
-
-            <h3>Museo Nacional de Antropología</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Museo_Nacional_de_Antropolog%C3%ADa_%28M%C3%A9xico%29.jpg/1280px-Museo_Nacional_de_Antropolog%C3%ADa_%28M%C3%A9xico%29.jpg" alt="Museo Nacional de Antropología, Ciudad de México">
-            <p>Situado en la Ciudad de México, conserva piezas fundamentales de las culturas prehispánicas como la Piedra del Sol, esculturas olmecas y objetos mayas. Es considerado uno de los mejores museos de América.</p>
-
-            <h3>Museo Británico</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/British_Museum_Exterior.jpg/1280px-British_Museum_Exterior.jpg" alt="Museo Británico, Londres">
-            <p>Se encuentra en Londres y reúne millones de objetos procedentes de todos los continentes. Destacan las momias egipcias, la Piedra Rosetta y piezas de las antiguas civilizaciones griega y romana.</p>
-
-            <h3>Museo del Prado</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Museo_del_Prado%2C_Madrid.jpg/1280px-Museo_del_Prado%2C_Madrid.jpg" alt="Museo del Prado, Madrid">
-            <p>Ubicado en Madrid, España, posee una extraordinaria colección de pintura europea con obras de artistas como Velázquez, Goya, Rubens y El Greco.</p>
-        </section>
-
-        <section id="tipos">
-            <h2>Tipos de Museos</h2>
-            <p>Existen museos de arte, historia, arqueología, antropología, ciencias naturales, tecnología, paleontología, historia militar y arte contemporáneo. Cada uno tiene la misión de conservar y difundir conocimientos específicos para enriquecer la educación de la sociedad.</p>
-        </section>
-
-        <section id="datos">
-            <h2>Datos Curiosos</h2>
-            <ul>
-                <li>El Museo del Louvre recibe millones de visitantes cada año.</li>
-                <li>Muchos museos ofrecen recorridos virtuales gratuitos por Internet.</li>
-                <li>Algunos museos poseen laboratorios donde restauran pinturas y esculturas antiguas.</li>
-                <li>Existen museos dedicados al chocolate, al cine, al espacio y hasta a los juguetes.</li>
-                <li>Los museos ayudan a preservar objetos únicos que forman parte de la historia de la humanidad.</li>
-            </ul>
-        </section>
-
-        <section id="importancia">
-            <h2>Importancia de los Museos</h2>
-            <p>Los museos desempeñan un papel fundamental en la conservación del patrimonio cultural e histórico. Gracias a ellos se protegen obras y objetos que permiten conocer la evolución de las civilizaciones. También fomentan el respeto por la diversidad cultural, impulsan el turismo y apoyan la investigación científica.</p>
-            <br>
-            <p>Visitar un museo permite desarrollar la curiosidad, ampliar los conocimientos y valorar el esfuerzo realizado por generaciones pasadas para construir el mundo actual. Son espacios abiertos para todas las personas y contribuyen al aprendizaje durante toda la vida.</p>
-        </section>
-
-        <section id="musica">
-            <h2>🎵 Música para acompañar tu recorrido</h2>
-            <div class="reproductor">
-                <p>Presiona reproducir para escuchar música ambiental:</p>
-                <audio controls>
-                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-                    Tu navegador no soporta la reproducción de audio.
-                
-            </div>
-        </section>
-
-        <section id="video">
-            <h2>📽️ Video: ¿Qué es un museo y por qué es importante?</h2>
-            <div class="video-contenedor">
-                <iframe src="https://www.youtube.com/embed/2Wjvj2bFq8k" allowfullscreen title="Video explicativo sobre museos"></iframe>
-            </div>
-        </section>
-
-        <section id="autora">
-            <h2>Sobre la Autora</h2>
-            <!-- ✅ Tu foto personal, lista para que la pongas en 1 clic -->
-            <img src="https://i.ibb.co/rvJ3g9P/foto-autora-renata.jpg" alt="Renata Martínez Salinas - Autora del proyecto" class="foto-autora">
-            <p style="text-align: center; font-size: 1.1rem; font-weight: bold; color: #ad1457; margin-top: 1rem;">Renata Martínez Salinas</p>
-            <p style="text-align: center;">Estudiante y creadora de este proyecto dedicado a dar a conocer la importancia de los museos, su historia y el valor de nuestro patrimonio cultural.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Proyecto Cultural | El patrimonio de todos</p>
-    </footer>
-</body>
-</html><!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conociendo la Historia, el Arte y la Cultura</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            line-height: 1.7;
-            color: #333;
-            background-color: #fce4ec;
-        }
-
-        header {
-            background: #ec407a;
-            color: white;
-            padding: 1.2rem;
-            text-align: center;
-        }
-
-        nav {
-            background: #ad1457;
-            padding: 0.8rem;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #f8bbd0;
-        }
-
-        main {
-            max-width: 1100px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-        }
-
-        section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #ad1457;
-            margin-bottom: 1.2rem;
-            border-bottom: 2px solid #ec407a;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            color: #ec407a;
-            margin: 1.5rem 0 0.8rem;
-        }
-
-        img {
-            max-width: 90%;
-            height: auto;
-            display: block;
-            margin: 1rem auto;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-            border: 2px solid #f8bbd0;
-        }
-
-        .foto-autora {
-            max-width: 260px;
-            border-radius: 12px;
-            border: 4px solid #ec407a;
-        }
-
-        .reproductor {
-            text-align: center;
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background-color: #fce4ec;
-            border-radius: 8px;
-        }
-
-        audio {
-            width: 100%;
-            max-width: 450px;
-            margin-top: 0.8rem;
-        }
-
-        .video-contenedor {
-            text-align: center;
-            margin: 2rem 0;
-        }
-
-        iframe {
-            width: 100%;
-            max-width: 750px;
-            height: 420px;
-            border: none;
-            border-radius: 6px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-        }
-
-        ul {
-            margin-left: 1.8rem;
-            margin-top: 0.8rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1.2rem;
-            background: #ad1457;
-            color: white;
-            margin-top: 2rem;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Conociendo la Historia, el Arte y la Cultura</h1>
-        <p>Proyecto elaborado por Renata Martínez Salinas</p>
-    </header>
-
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#que-es">¿Qué es un Museo?</a>
-        <a href="#historia">Historia</a>
-        <a href="#importantes">Museos Importantes</a>
-        <a href="#tipos">Tipos de Museos</a>
-        <a href="#datos">Datos Curiosos</a>
-        <a href="#importancia">Importancia</a>
-        <a href="#musica">Música</a>
-        <a href="#video">Video</a>
-        <a href="#autora">Sobre la Autora</a>
-    </nav>
-
-    <main>
-        <section id="inicio">
-            <h2>Bienvenida</h2>
-            <p>Los museos son espacios donde se conserva una parte importante de la historia y la cultura de la humanidad. En ellos se resguardan obras de arte, fósiles, documentos, esculturas, objetos antiguos y descubrimientos científicos que ayudan a comprender cómo vivían las personas en distintas épocas. Además de proteger estos bienes, los museos promueven el aprendizaje mediante exposiciones, visitas guiadas, talleres y actividades educativas.</p>
-            <br>
-            <p>Actualmente existen miles de museos en todo el mundo. Algunos son muy famosos por sus colecciones, mientras que otros se enfocan en preservar la historia y las tradiciones de una región o comunidad. Gracias a ellos es posible acercarse al conocimiento de una forma interesante y dinámica.</p>
-        </section>
-
-        <section id="que-es">
-            <h2>¿Qué es un Museo?</h2>
-            <p>Un museo es una institución permanente sin fines de lucro que adquiere, conserva, investiga y exhibe objetos de valor histórico, artístico, científico o cultural. Su objetivo principal es proteger el patrimonio para que pueda ser conocido y apreciado por las generaciones presentes y futuras.</p>
-            <br>
-            <p>Además de exhibir colecciones, los museos realizan investigaciones, restauran piezas antiguas y colaboran con escuelas y universidades para fomentar la educación. Muchos también cuentan con bibliotecas, auditorios y espacios interactivos donde los visitantes pueden participar en actividades relacionadas con las exposiciones.</p>
-        </section>
-
-        <section id="historia">
-            <h2>Historia de los Museos</h2>
-            <p>Los primeros museos surgieron hace cientos de años como colecciones privadas de reyes y personas adineradas. Con el paso del tiempo comenzaron a abrirse al público para compartir el conocimiento con toda la sociedad. Uno de los museos más antiguos y famosos es el Museo del Louvre, que anteriormente fue un palacio real y hoy alberga una de las colecciones de arte más importantes del mundo.</p>
-            <br>
-            <p>En la actualidad, los museos utilizan tecnología moderna, como pantallas táctiles, realidad virtual y recorridos digitales, para hacer que la experiencia de los visitantes sea más atractiva e interactiva.</p>
-        </section>
-
-        <section id="importantes">
-            <h2>Museos Más Importantes del Mundo</h2>
-
-            <h3>Museo del Louvre</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg" alt="Museo del Louvre, París">
-            <p>Ubicado en París, Francia, es el museo más visitado del mundo. Cuenta con miles de obras, entre ellas la Mona Lisa de Leonardo da Vinci y la Venus de Milo. Su colección abarca desde la antigüedad hasta el siglo XIX.</p>
-
-            <h3>Museo Nacional de Antropología</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Museo_Nacional_de_Antropolog%C3%ADa_%28M%C3%A9xico%29.jpg/1280px-Museo_Nacional_de_Antropolog%C3%ADa_%28M%C3%A9xico%29.jpg" alt="Museo Nacional de Antropología, Ciudad de México">
-            <p>Situado en la Ciudad de México, conserva piezas fundamentales de las culturas prehispánicas como la Piedra del Sol, esculturas olmecas y objetos mayas. Es considerado uno de los mejores museos de América.</p>
-
-            <h3>Museo Británico</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/British_Museum_Exterior.jpg/1280px-British_Museum_Exterior.jpg" alt="Museo Británico, Londres">
-            <p>Se encuentra en Londres y reúne millones de objetos procedentes de todos los continentes. Destacan las momias egipcias, la Piedra Rosetta y piezas de las antiguas civilizaciones griega y romana.</p>
-
-            <h3>Museo del Prado</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Museo_del_Prado%2C_Madrid.jpg/1280px-Museo_del_Prado%2C_Madrid.jpg" alt="Museo del Prado, Madrid">
-            <p>Ubicado en Madrid, España, posee una extraordinaria colección de pintura europea con obras de artistas como Velázquez, Goya, Rubens y El Greco.</p>
-        </section>
-
-        <section id="tipos">
-            <h2>Tipos de Museos</h2>
-            <p>Existen museos de arte, historia, arqueología, antropología, ciencias naturales, tecnología, paleontología, historia militar y arte contemporáneo. Cada uno tiene la misión de conservar y difundir conocimientos específicos para enriquecer la educación de la sociedad.</p>
-        </section>
-
-        <section id="datos">
-            <h2>Datos Curiosos</h2>
-            <ul>
-                <li>El Museo del Louvre recibe millones de visitantes cada año.</li>
-                <li>Muchos museos ofrecen recorridos virtuales gratuitos por Internet.</li>
-                <li>Algunos museos poseen laboratorios donde restauran pinturas y esculturas antiguas.</li>
-                <li>Existen museos dedicados al chocolate, al cine, al espacio y hasta a los juguetes.</li>
-                <li>Los museos ayudan a preservar objetos únicos que forman parte de la historia de la humanidad.</li>
-            </ul>
-        </section>
-
-        <section id="importancia">
-            <h2>Importancia de los Museos</h2>
-            <p>Los museos desempeñan un papel fundamental en la conservación del patrimonio cultural e histórico. Gracias a ellos se protegen obras y objetos que permiten conocer la evolución de las civilizaciones. También fomentan el respeto por la diversidad cultural, impulsan el turismo y apoyan la investigación científica.</p>
-            <br>
-            <p>Visitar un museo permite desarrollar la curiosidad, ampliar los conocimientos y valorar el esfuerzo realizado por generaciones pasadas para construir el mundo actual. Son espacios abiertos para todas las personas y contribuyen al aprendizaje durante toda la vida.</p>
-        </section>
-
-        <section id="musica">
-            <h2>🎵 Música para acompañar tu recorrido</h2>
-            <div class="reproductor">
-                <p>Presiona reproducir para escuchar música ambiental:</p>
-                <audio controls>
-                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-                    Tu navegador no soporta la reproducción de audio.
-                
-            </div>
-        </section>
-
-        <section id="video">
-            <h2>📽️ Video: ¿Qué es un museo y por qué es importante?</h2>
-            <div class="video-contenedor">
-                <iframe src="https://www.youtube.com/embed/2Wjvj2bFq8k" allowfullscreen title="Video explicativo sobre museos"></iframe>
-            </div>
-        </section>
-
-        <section id="autora">
-            <h2>Sobre la Autora</h2>
-            <!-- ✅ Tu foto personal, lista para que la pongas en 1 clic -->
-            <img src="ren.jpeg" alt="Renata Martínez Salinas - Autora del proyecto" class="foto-autora"> class="foto-autora">
-            <p style="text-align: center; font-size: 1.1rem; font-weight: bold; color: #ad1457; margin-top: 1rem;">Renata Martínez Salinas</p>
-            <p style="text-align: center;">Estudiante y creadora de este proyecto dedicado a dar a conocer la importancia de los museos, su historia y el valor de nuestro patrimonio cultural.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Proyecto Cultural | El patrimonio de todos</p>
-    </footer>
-</body>
-</html> class="foto-autora">
-            <p style="text-align: center; font-size: 1.1rem; font-weight: bold; color: #ad1457; margin-top: 1rem;">Renata Martínez Salinas</p>
-            <p style="text-align: center;">Estudiante y creadora de este proyecto dedicado a dar a conocer la importancia de los museos, su historia y el valor de nuestro patrimonio cultural.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Proyecto Cultural | El patrimonio de todos</p>
-    </footer>
+
+<header>
+    <h1>Conociendo la Historia, el Arte y la Cultura</h1>
+    <p>Proyecto elaborado por Renata Martínez Salinas</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#que-es">¿Qué es un Museo?</a>
+    <a href="#historia">Historia</a>
+    <a href="#importantes">Museos Importantes</a>
+    <a href="#tipos">Tipos de Museos</a>
+    <a href="#datos">Datos Curiosos</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#musica">Música</a>
+    <a href="#video">Video</a>
+    <a href="#autora">Sobre la Autora</a>
+</nav>
+
+<main>
+
+<section id="inicio">
+    <h2>Bienvenida</h2>
+
+    <p>Los museos son espacios donde se conserva una parte importante de la historia y la cultura de la humanidad. En ellos se resguardan obras de arte, fósiles, documentos, esculturas, objetos antiguos y descubrimientos científicos que ayudan a comprender cómo vivían las personas en distintas épocas. Además de proteger estos bienes, los museos promueven el aprendizaje mediante exposiciones, visitas guiadas, talleres y actividades educativas.</p>
+
+    <br>
+
+    <p>Actualmente existen miles de museos en todo el mundo. Algunos son muy famosos por sus colecciones, mientras que otros se enfocan en preservar la historia y las tradiciones de una región o comunidad. Gracias a ellos es posible acercarse al conocimiento de una forma interesante y dinámica.</p>
+</section>
+
+<section id="que-es">
+    <h2>¿Qué es un Museo?</h2>
+
+    <p>Un museo es una institución permanente sin fines de lucro que adquiere, conserva, investiga y exhibe objetos de valor histórico, artístico, científico o cultural. Su objetivo principal es proteger el patrimonio para que pueda ser conocido y apreciado por las generaciones presentes y futuras.</p>
+
+    <br>
+
+    <p>Además de exhibir colecciones, los museos realizan investigaciones, restauran piezas antiguas y colaboran con escuelas y universidades para fomentar la educación. Muchos también cuentan con bibliotecas, auditorios y espacios interactivos donde los visitantes pueden participar en actividades relacionadas con las exposiciones.</p>
+</section>
+
+<section id="historia">
+    <h2>Historia de los Museos</h2>
+
+    <p>Los primeros museos surgieron hace cientos de años como colecciones privadas de reyes y personas adineradas. Con el paso del tiempo comenzaron a abrirse al público para compartir el conocimiento con toda la sociedad. Uno de los museos más antiguos y famosos es el Museo del Louvre, que anteriormente fue un palacio real y hoy alberga una de las colecciones de arte más importantes del mundo.</p>
+
+    <br>
+
+    <p>En la actualidad, los museos utilizan tecnología moderna, como pantallas táctiles, realidad virtual y recorridos digitales, para hacer que la experiencia de los visitantes sea más atractiva e interactiva.</p>
+</section>
+<section id="importantes">
+    <h2>Museos Más Importantes del Mundo</h2>
+
+    <h3>Museo del Louvre</h3>
+    <img src="louvre.jpg" alt="Museo del Louvre, París">
+    <p>Ubicado en París, Francia, es el museo más visitado del mundo. Cuenta con miles de obras, entre ellas la Mona Lisa de Leonardo da Vinci y la Venus de Milo. Su colección abarca desde la antigüedad hasta el siglo XIX.</p>
+
+    <h3>Museo Nacional de Antropología</h3>
+    <img src="antropologia.jpg" alt="Museo Nacional de Antropología, Ciudad de México">
+    <p>Situado en la Ciudad de México, conserva piezas fundamentales de las culturas prehispánicas como la Piedra del Sol, esculturas olmecas y objetos mayas. Es considerado uno de los mejores museos de América.</p>
+
+    <h3>Museo Británico</h3>
+    <img src="britanico.JPG" alt="Museo Británico, Londres">
+    <p>Se encuentra en Londres y reúne millones de objetos procedentes de todos los continentes. Destacan las momias egipcias, la Piedra Rosetta y piezas de las antiguas civilizaciones griega y romana.</p>
+
+    <h3>Museo del Prado</h3>
+    <img src="prado.jpg" alt="Museo del Prado, Madrid">
+    <p>Ubicado en Madrid, España, posee una extraordinaria colección de pintura europea con obras de artistas como Velázquez, Goya, Rubens y El Greco.</p>
+</section>
+
+<section id="tipos">
+    <h2>Tipos de Museos</h2>
+    <p>Existen museos de arte, historia, arqueología, antropología, ciencias naturales, tecnología, paleontología, historia militar y arte contemporáneo. Cada uno tiene la misión de conservar y difundir conocimientos específicos para enriquecer la educación de la sociedad.</p>
+</section>
+
+<section id="datos">
+    <h2>Datos Curiosos</h2>
+    <ul>
+        <li>El Museo del Louvre recibe millones de visitantes cada año.</li>
+        <li>Muchos museos ofrecen recorridos virtuales gratuitos por Internet.</li>
+        <li>Algunos museos poseen laboratorios donde restauran pinturas y esculturas antiguas.</li>
+        <li>Existen museos dedicados al chocolate, al cine, al espacio y hasta a los juguetes.</li>
+        <li>Los museos ayudan a preservar objetos únicos que forman parte de la historia de la humanidad.</li>
+    </ul>
+</section>
+<section id="importancia">
+    <h2>Importancia de los Museos</h2>
+
+    <p>Los museos desempeñan un papel fundamental en la conservación del patrimonio cultural e histórico. Gracias a ellos se protegen obras y objetos que permiten conocer la evolución de las civilizaciones. También fomentan el respeto por la diversidad cultural, impulsan el turismo y apoyan la investigación científica.</p>
+
+    <br>
+
+    <p>Visitar un museo permite desarrollar la curiosidad, ampliar los conocimientos y valorar el esfuerzo realizado por generaciones pasadas para construir el mundo actual. Son espacios abiertos para todas las personas y contribuyen al aprendizaje durante toda la vida.</p>
+</section>
+
+<section id="musica">
+    <h2>🎵 Música para acompañar tu recorrido</h2>
+
+    <div class="reproductor">
+        <p>Presiona reproducir para escuchar música ambiental:</p>
+
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+
+    </div>
+</section>
+
+<section id="video">
+    <h2>📽️ Video: ¿Qué es un museo y por qué es importante?</h2>
+
+    <div class="video-contenedor">
+        <iframe
+            src="https://www.youtube.com/embed/2Wjvj2bFq8k"
+            title="Video explicativo sobre museos"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<section id="autora">
+    <h2>Sobre la Autora</h2>
+
+    <img src="ren.jpeg" alt="Renata Martínez Salinas - Autora del proyecto" class="foto-autora">
+
+    <p style="text-align:center; font-size:1.1rem; font-weight:bold; color:#ad1457; margin-top:1rem;">
+        Renata Martínez Salinas
+    </p>
+
+    <p style="text-align:center;">
+        Estudiante y creadora de este proyecto dedicado a dar a conocer la importancia de los museos, su historia y el valor de nuestro patrimonio cultural.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Proyecto Cultural | El patrimonio de todos</p>
+</footer>
+
 </body>
 </html>
