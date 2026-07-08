@@ -9,38 +9,46 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: Arial, sans-serif;
         }
+
+        /* FONDO ROSA ORIGINAL */
         body {
             line-height: 1.7;
             color: #333;
-            background-color: #f9f9f9;
+            background-color: #fce4ec; /* Rosa claro */
         }
+
         header {
-            background: #2c3e50;
+            background: #ec407a; /* Rosa fuerte */
             color: white;
             padding: 1.2rem;
             text-align: center;
         }
+
         nav {
-            background: #34495e;
+            background: #ad1457; /* Rosa oscuro */
             padding: 0.8rem;
             text-align: center;
         }
+
         nav a {
             color: white;
             margin: 0 1rem;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: bold;
         }
+
         nav a:hover {
-            color: #f39c12;
+            color: #f8bbd0;
         }
+
         main {
             max-width: 1100px;
             margin: 2rem auto;
             padding: 0 1.5rem;
         }
+
         section {
             background: white;
             padding: 2rem;
@@ -48,16 +56,20 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
+
         h2 {
-            color: #2c3e50;
+            color: #ad1457;
             margin-bottom: 1.2rem;
-            border-bottom: 2px solid #f39c12;
+            border-bottom: 2px solid #ec407a;
             padding-bottom: 0.5rem;
         }
+
         h3 {
-            color: #34495e;
+            color: #ec407a;
             margin: 1.5rem 0 0.8rem;
         }
+
+        /* ESTILO PARA QUE LAS IMÁGENES SE VEAN BIEN */
         img {
             max-width: 100%;
             height: auto;
@@ -65,16 +77,20 @@
             margin: 1rem auto;
             border-radius: 6px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            border: 2px solid #f8bbd0;
         }
+
         .foto-autora {
             max-width: 250px;
             border-radius: 50%;
-            border: 4px solid #f39c12;
+            border: 4px solid #ec407a;
         }
+
         .media-container {
             margin: 2rem 0;
             text-align: center;
         }
+
         iframe {
             width: 100%;
             max-width: 800px;
@@ -83,14 +99,16 @@
             border-radius: 6px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.2);
         }
+
         ul {
             margin-left: 1.8rem;
             margin-top: 0.8rem;
         }
+
         footer {
             text-align: center;
             padding: 1.2rem;
-            background: #2c3e50;
+            background: #ad1457;
             color: white;
             margin-top: 2rem;
         }
@@ -110,7 +128,7 @@
         <a href="#tipos">Tipos de Museos</a>
         <a href="#datos">Datos Curiosos</a>
         <a href="#importancia">Importancia</a>
-        <a href="#musica">Música y Recorrido</a>
+        <a href="#musica">Música</a>
         <a href="#autora">Sobre la Autora</a>
     </nav>
 
@@ -140,7 +158,7 @@
             <h2>Museos Más Importantes del Mundo</h2>
 
             <h3>Museo del Louvre</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1200px-Louvre_Museum_Wikimedia_Commons.jpg" alt="Museo del Louvre, París">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1200px-Louvre_Museum_Wikimedia_Commons.jpg" alt="Museo del Louvre, París - Francia">
             <p>Ubicado en París, Francia, es el museo más visitado del mundo. Cuenta con miles de obras, entre ellas la Mona Lisa de Leonardo da Vinci y la Venus de Milo. Su colección abarca desde la antigüedad hasta el siglo XIX.</p>
 
             <h3>Museo Nacional de Antropología</h3>
@@ -148,11 +166,11 @@
             <p>Situado en la Ciudad de México, conserva piezas fundamentales de las culturas prehispánicas como la Piedra del Sol, esculturas olmecas y objetos mayas. Es considerado uno de los mejores museos de América.</p>
 
             <h3>Museo Británico</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/British_Museum_Exterior.jpg/1200px-British_Museum_Exterior.jpg" alt="Museo Británico, Londres">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/British_Museum_Exterior.jpg/1200px-British_Museum_Exterior.jpg" alt="Museo Británico, Londres - Reino Unido">
             <p>Se encuentra en Londres y reúne millones de objetos procedentes de todos los continentes. Destacan las momias egipcias, la Piedra Rosetta y piezas de las antiguas civilizaciones griega y romana.</p>
 
             <h3>Museo del Prado</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Museo_del_Prado%2C_Madrid.jpg/1200px-Museo_del_Prado%2C_Madrid.jpg" alt="Museo del Prado, Madrid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Museo_del_Prado%2C_Madrid.jpg/1200px-Museo_del_Prado%2C_Madrid.jpg" alt="Museo del Prado, Madrid - España">
             <p>Ubicado en Madrid, España, posee una extraordinaria colección de pintura europea con obras de artistas como Velázquez, Goya, Rubens y El Greco.</p>
         </section>
 
@@ -181,24 +199,24 @@
 
         <section id="musica">
             <h2>Música y Recorrido Virtual</h2>
-            <p>Disfruta de un recorrido virtual y una música ambiental adecuada para acompañar tu visita a este espacio cultural:</p>
+            <p>Disfruta de un recorrido virtual y música ambiental para acompañar tu visita:</p>
 
             <div class="media-container">
-                <h3>Recorrido y explicación sobre los museos</h3>
+                <h3>Recorrido explicativo sobre museos</h3>
                 <iframe src="https://www.youtube.com/embed/9bFyW6dV0s0" allowfullscreen></iframe>
             </div>
 
             <div class="media-container">
-                <h3>Música ambiental para acompañar la lectura</h3>
+                <h3>Música ambiental relajante</h3>
                 <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen></iframe>
             </div>
         </section>
 
-        <!-- Nueva sección con la foto de la autora -->
         <section id="autora">
             <h2>Sobre la Autora</h2>
+            <!-- Tu foto como autora -->
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Perfil_estudiante.jpg/400px-Perfil_estudiante.jpg" alt="Renata Martínez Salinas - Autora del proyecto" class="foto-autora">
-            <p style="text-align: center; font-size: 1.1rem; font-weight: 500;">Renata Martínez Salinas</p>
+            <p style="text-align: center; font-size: 1.1rem; font-weight: bold; color: #ad1457;">Renata Martínez Salinas</p>
             <p style="text-align: center;">Estudiante y creadora de este proyecto dedicado a dar a conocer la importancia de los museos, su historia y el valor de nuestro patrimonio cultural.</p>
         </section>
     </main>
