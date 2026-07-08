@@ -6,94 +6,87 @@
 <title>Museos del Mundo</title>
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
 body{
 font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#ffd6e8,#ffc2dc,#fff0f7);
+background:#ffd6e7;
+margin:0;
 color:#333;
-line-height:1.7;
 }
 
 header{
-background:linear-gradient(90deg,#e91e63,#ff5fa2);
+background:#e91e63;
 color:white;
 text-align:center;
-padding:40px;
+padding:30px;
 }
 
 nav{
-background:white;
+background:#ff8ab5;
 padding:15px;
 text-align:center;
-position:sticky;
-top:0;
 }
 
 nav a{
-display:inline-block;
-margin:8px;
-padding:12px 20px;
-background:#f06292;
 color:white;
 text-decoration:none;
-border-radius:30px;
+margin:15px;
 font-weight:bold;
 }
 
 section{
-max-width:1100px;
-margin:30px auto;
 background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 0 15px rgba(0,0,0,.2);
+width:90%;
+max-width:1000px;
+margin:20px auto;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 10px gray;
 }
 
 h2{
-color:#d81b60;
-margin-bottom:15px;
+color:#e91e63;
 }
 
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+.galeria{
+display:flex;
 gap:20px;
+flex-wrap:wrap;
+justify-content:center;
 }
 
-.card{
-background:#ffe4ef;
-padding:20px;
+.galeria img{
+width:280px;
 border-radius:15px;
+box-shadow:0 0 10px gray;
+}
+
+.autora{
 text-align:center;
 }
 
-.card img{
+.autora img{
+width:250px;
+border-radius:20px;
+box-shadow:0 0 15px gray;
+}
+
+iframe{
 width:100%;
+height:450px;
 border-radius:15px;
+border:none;
+}
+
+audio{
+width:100%;
 }
 
 footer{
 background:#e91e63;
 color:white;
 text-align:center;
-padding:25px;
-margin-top:30px;
-}
-
-iframe{
-width:100%;
-height:450px;
-border:none;
-border-radius:15px;
-}
-
-audio{
-width:100%;
+padding:20px;
+margin-top:20px;
 }
 </style>
 
@@ -112,14 +105,10 @@ width:100%;
 <nav>
 
 <a href="#inicio">Inicio</a>
-
-<a href="#historia">Historia</a>
-
 <a href="#galeria">Galería</a>
-
 <a href="#video">Video</a>
-
 <a href="#musica">Música</a>
+<a href="#autora">Autora</a>
 
 </nav>
 
@@ -128,41 +117,26 @@ width:100%;
 <h2>¿Qué es un museo?</h2>
 
 <p>
-Los museos son espacios donde se conserva una parte importante de la historia y la cultura de la humanidad. En ellos se exhiben obras de arte, esculturas, fósiles y objetos históricos que ayudan a comprender el pasado.
+Los museos son lugares donde se conservan obras de arte, objetos históricos y científicos para proteger el patrimonio cultural y compartir conocimientos con las personas.
 </p>
 
-</section>
-
-<section id="historia">
-
-<h2>Importancia de los Museos</h2>
-
 <p>
-Los museos preservan el patrimonio cultural, apoyan la educación, fomentan el turismo y permiten conocer la historia de diferentes civilizaciones.
+Entre los museos más famosos del mundo se encuentran el Museo del Louvre, el Museo del Prado y el Museo Nacional de Antropología de México.
 </p>
 
 </section>
 
 <section id="galeria">
 
-<h2>Galería</h2>
+<h2>Galería de Museos</h2>
 
-<div class="cards">
+<div class="galeria">
 
-<div class="card">
-<img src="museo1.jpg">
-<h3>Museo Nacional de Antropología</h3>
-</div>
+<img src="museo1.jpg" alt="Museo Nacional de Antropología">
 
-<div class="card">
-<img src="Museo2.jpg">
-<h3>Museo del Prado</h3>
-</div>
+<img src="Museo2.jpg" alt="Museo del Prado">
 
-<div class="card">
-<img src="museo3.jpg">
-<h3>Museo del Louvre</h3>
-</div>
+<img src="museo3.jpg" alt="Museo del Louvre">
 
 </div>
 
@@ -170,10 +144,9 @@ Los museos preservan el patrimonio cultural, apoyan la educación, fomentan el t
 
 <section id="video">
 
-<h2>Video</h2>
+<h2>Video sobre Museos</h2>
 
-<iframe
-src="https://www.youtube.com/embed/FjJ8bJ4wC6Q"
+<iframe src="https://www.youtube.com/embed/qEZvWb0aV6A"
 allowfullscreen>
 </iframe>
 
@@ -181,24 +154,43 @@ allowfullscreen>
 
 <section id="musica">
 
-<h2>Música</h2>
+<h2>Música de Fondo</h2>
 
-<audio controls loop>
+<audio controls autoplay loop>
 
 <source src="musica.mp3" type="audio/mpeg">
+
+Tu navegador no soporta audio.
 
 </audio>
 
 </section>
 
+<section id="autora">
+
+<h2>Autora del Proyecto</h2>
+
+<div class="autora">
+
+<img src="renata.jpg" alt="Renata">
+
+<h3>Renata Martínez Salinas</h3>
+
+<p>
+Estudiante interesada en conocer la historia, el arte y la cultura a través de los museos más importantes del mundo.
+</p>
+
+</div>
+
+</section>
+
 <footer>
 
-<h2>Renata Martínez Salinas</h2>
+<h3>Proyecto HTML - GitHub Pages</h3>
 
-<p>Proyecto HTML - GitHub Pages</p>
+<p>© 2026 Renata Martínez Salinas</p>
 
 </footer>
 
 </body>
-
 </html>
